@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE beans PUBLIC "-//SPRING//DTD BEAN//EN" "http://www.springframework.org/dtd/spring-beans.dtd">
+
+<beans>
+<!-- This is the default AgentNode definition. You can find this xml file in the agentCore-5.1.4.jar in you local maven repository -->
+	<import resource="classpath:de/dailab/jiactng/agentcore/conf/AgentNode.xml" />
+	<import resource="classpath:agent-config/agent.xml" />
+
+	<bean name="${MainClass}Node" parent="NodeWithDirectory">
+		<property name="agents">
+			<list>
+				<ref bean="${MainClass}Agent" />
+			</list>
+		</property>
+	</bean>
+</beans>
