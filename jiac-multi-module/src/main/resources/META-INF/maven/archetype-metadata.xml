@@ -1,15 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <archetype-descriptor name="jiacv">
-	<!-- Definition der Projektstruktur -->
+	<!-- project structure definition -->
 	<fileSets>
+		<!-- api module configuration -->	
+		<fileSet filtered="true" packaged="false" encoding="UTF-8">
+			<directory>api</directory>
+			<includes>
+				<include>**/*.xml</include>
+			</includes>
+		</fileSet>
 		<fileSet filtered="false" packaged="true" encoding="UTF-8">
 			<directory>api/src/main/java</directory>
+		</fileSet>
+		<!-- domain module configuration -->
+		<fileSet filtered="true" packaged="false" encoding="UTF-8">
+			<directory>domain</directory>
+			<includes>
+				<include>**/*.xml</include>
+			</includes>
 		</fileSet>
 		<fileSet filtered="false" packaged="true" encoding="UTF-8">
 			<directory>domain/src/main/java</directory>
 		</fileSet>
 	</fileSets>
-	<!-- Liste der selbsterstellten Parameter -->
+	<!-- required (project) properties -->
 	<requiredProperties>
 	<requiredProperty key="groupId">
 		<defaultValue>de.dailab</defaultValue>
