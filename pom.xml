@@ -36,6 +36,7 @@
         <module>jiac-empty</module>
 		<module>jiac-jsw</module>
 		<module>jiac-agent-config-temp</module>
+		<module>jiac-multi-module</module>
 	</modules>
   
 <profiles>
