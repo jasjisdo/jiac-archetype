@@ -1,3 +1,5 @@
 jiac-jsw/target/
 jiac-empty/target/
 jiac-multi-module/target/
+.settings/
+.project
