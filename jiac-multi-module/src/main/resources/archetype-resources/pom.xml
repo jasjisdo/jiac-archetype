@@ -17,55 +17,18 @@
 	<packaging>pom</packaging>
 
 	<name>${project-name}</name>
-	<url><!-- project url --></url>
-	<inceptionYear><!-- year of inception --></inceptionYear>
+	<url>${project-url}</url>
+	<inceptionYear>${project-inception-year}</inceptionYear>
 
 	<organization>
-		<name><!-- name of organization --></name>
-		<url><!-- url of oragnization --></url>
+		<name>${vendor-name}</name>
+		<url>${vendor-url}</url>
 	</organization>
 
 	<modules>
         <module>api</module>
         <module>domain</module>
     </modules>
-    
-    <ciManagement>
-		<!-- <system>Continuum</system>
-		<url>http://130.149.154.198:8765/continuum/</url>
-		<notifiers>
-			<notifier>
-				<type>mail</type>
-				<sendOnFailure>true</sendOnFailure>
-				<sendOnSuccess>true</sendOnSuccess>
-				<sendOnError>true</sendOnError>
-				<sendOnWarning>true</sendOnWarning>
-				<configuration>
-					<address>marco.luetzenberger@dai-labor.de</address>
-					<address>jan.keiser@dai-labor.de</address>
-				</configuration>
-			</notifier>
-		</notifiers> -->
-	</ciManagement>
-
-	<issueManagement>
-		<!-- <system>Mantis</system>
-		<url>http://130.149.154.84/bt</url> -->
-	</issueManagement>
-
-	<mailingLists>
-		<!-- <mailingList>
-			<name>DAI-Labor Energy Mailing List</name>
-			<post>energy2@dai-labor.de</post>
-		</mailingList> -->
-	</mailingLists>
-
-	<scm>
-		<!-- <connection>scm:svn:https://cvs.dai-labor.de/jiac/FC-EUREF/trunk/</connection>
-		<developerConnection>scm:svn:https://cvs.dai-labor.de/jiac/FC-EUREF/trunk/</developerConnection>
-		<url>https://cvs.dai-labor.de/jiac/FC-EUREF/trunk/</url> -->
-	</scm>
-    
 
 	<build>
 		<plugins>
@@ -278,64 +241,6 @@
 				<enabled>false</enabled>
 			</snapshots>
 		</repository>
-		<!-- <repository>
-			<id>dai-releases</id>
-			<name>DAI Maven 2 Releases Repository</name>
-			<url>http://repositories.dai-labor.de/nexus/content/repositories/dai-releases/</url>
-			<snapshots>
-				<enabled>false</enabled>
-			</snapshots>
-			<releases>
-				<enabled>true</enabled>
-			</releases>
-		</repository>
-		<repository>
-			<id>dai-snapshots</id>
-			<name>DAI Maven 2 Snapshot Repository</name>
-			<url>http://repositories.dai-labor.de/nexus/content/repositories/dai-snapshots/</url>
-			<snapshots>
-				<enabled>true</enabled>
-			</snapshots>
-			<releases>
-				<enabled>false</enabled>
-			</releases>
-		</repository>
-		<repository>
-			<id>thirdparty</id>
-			<name>thirdparty</name>
-			<url>http://repositories.dai-labor.de/nexus/content/repositories/thirdparty/</url>
-			<snapshots>
-				<enabled>true</enabled>
-			</snapshots>
-			<releases>
-				<enabled>true</enabled>
-			</releases>
-		</repository> -->
 	</repositories>
 	
-		<pluginRepositories>
-		<!-- <pluginRepository>
-			<id>dai-releases</id>
-			<name>DAI Maven 2 Releases Repository</name>
-			<url>http://repositories.dai-labor.de/nexus/content/repositories/dai-releases/</url>
-			<snapshots>
-				<enabled>false</enabled>
-			</snapshots>
-			<releases>
-				<enabled>true</enabled>
-			</releases>
-		</pluginRepository>
-		<pluginRepository>
-			<id>dai-snapshots</id>
-			<name>DAI Maven 2 Snapshot Repository</name>
-			<url>http://repositories.dai-labor.de/nexus/content/repositories/dai-snapshots/</url>
-			<snapshots>
-				<enabled>true</enabled>
-			</snapshots>
-			<releases>
-				<enabled>false</enabled>
-			</releases>
-		</pluginRepository> -->
-	</pluginRepositories>
-
 </project>
