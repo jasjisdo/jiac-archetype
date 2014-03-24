@@ -12,13 +12,12 @@
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 	</properties>
 	
-	<artifactId>jiac-empty</artifactId>
+	<artifactId>jiac-agent-config-temp</artifactId>
 	<version>5.1.4</version>
 	
 	<packaging>maven-archetype</packaging>
 	
-	<name>JIAC V - Archetype - empty project</name>
-	<description>Creates a empty jiac project. POM only</description>
+	<name>JIAC V - Archetype - with agent config template</name>
 	<url>www.jiac.de</url>
 	<licenses>
 		<license>

@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <archetype-descriptor name="jiacv">
-	<!-- Definition der Projektstruktur -->
 	<fileSets>
 		<fileSet filtered="true" packaged="true" encoding="UTF-8">
 			<directory>src/main/java</directory>
@@ -8,13 +7,7 @@
 				<include>**/*.java</include>
 			</includes>
 		</fileSet>
-		<fileSet filtered="true" packaged="true" encoding="UTF-8">
-			<directory>src/test/java</directory>
-			<includes>
-				<include>**/*.java</include>
-			</includes>
-		</fileSet>
-		<fileSet filtered="true" packaged="true" encoding="UTF-8">
+		<fileSet filtered="true" packaged="false" encoding="UTF-8">
 			<directory>src/main/resources</directory>
 			<includes>
 				<include>**/*.properties</include>
@@ -22,14 +15,25 @@
 			</includes>
 		</fileSet>
 	</fileSets>
-	<!-- Liste der selbsterstellten Parameter -->
 	<requiredProperties>
 	<requiredProperty key="groupId">
 		<defaultValue>de.dailab</defaultValue>
+	</requiredProperty>
+	<requiredProperty key="package">
+		<defaultValue>${groupId}.${artifactId}</defaultValue>
 	</requiredProperty>
     <requiredProperty key="java-version">
       <defaultValue>6</defaultValue>
     </requiredProperty>
     <requiredProperty key="project-name"/>
+    <requiredProperty key="project-url">
+    	<defaultValue>www.dai-labor.de</defaultValue>
+    </requiredProperty>
+    <requiredProperty key="vendor-name">
+    	<defaultValue>DAI-Labor, TU Berlin</defaultValue>
+    </requiredProperty>
+    <requiredProperty key="vendor-url">
+    	<defaultValue>www.dai-labor.de</defaultValue>
+    </requiredProperty>
   </requiredProperties>
 </archetype-descriptor>

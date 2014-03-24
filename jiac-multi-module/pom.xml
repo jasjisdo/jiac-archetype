@@ -12,13 +12,13 @@
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 	</properties>
 	
-	<artifactId>jiac-empty</artifactId>
+	<artifactId>jiac-multi-module</artifactId>
 	<version>5.1.4</version>
 	
 	<packaging>maven-archetype</packaging>
 	
-	<name>JIAC V - Archetype - empty project</name>
-	<description>Creates a empty jiac project. POM only</description>
+	<name>JIAC V - Archetype - jiac-multi-module</name>
+	<description>Creates jiac multi module project with api and domain module</description>
 	<url>www.jiac.de</url>
 	<licenses>
 		<license>

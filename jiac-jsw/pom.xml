@@ -18,6 +18,7 @@
 	<packaging>maven-archetype</packaging>
 	
 	<name>JIAC V - Archetype - jsw project</name>
+	<description>Creates a runnable agent, which can used as system service/daemon</description>
 	<url>www.jiac.de</url>
 	<licenses>
 		<license>
