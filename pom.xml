@@ -10,7 +10,7 @@
 	
     <groupId>de.dailab</groupId>
     <artifactId>jiac-archetype</artifactId>
-    <version>5.1.5</version>
+    <version>5.1.5.1</version>
 	<packaging>pom</packaging>
     <name>JIAC Archetypes</name>
     <description>Archetypes for JIAC</description>
@@ -45,6 +45,26 @@
 		<module>jiac-agent-config-temp</module>
 		<module>jiac-multi-module</module>
 	</modules>
+  
+  
+	<build>
+      <plugins>
+        <plugin>
+          <groupId>org.apache.maven.plugins</groupId>
+          <artifactId>maven-gpg-plugin</artifactId>
+          <version>1.5</version>
+          <executions>
+            <execution>
+              <id>sign-artifacts</id>
+              <phase>verify</phase>
+              <goals>
+                <goal>sign</goal>
+              </goals>
+            </execution>
+          </executions>
+        </plugin>
+      </plugins>
+	</build>
   
 <profiles>
   <profile>

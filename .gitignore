@@ -3,3 +3,4 @@ jiac-empty/target/
 jiac-multi-module/target/
 .settings/
 .project
+target/
