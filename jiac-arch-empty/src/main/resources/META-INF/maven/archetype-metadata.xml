@@ -27,8 +27,11 @@
 	<requiredProperty key="groupId">
 		<defaultValue>de.dailab</defaultValue>
 	</requiredProperty>
+	<requiredProperty key="package">
+		<defaultValue>${groupId}.${artifactId}</defaultValue>
+	</requiredProperty>
     <requiredProperty key="java-version">
-      <defaultValue>6</defaultValue>
+      <defaultValue>7</defaultValue>
     </requiredProperty>
     <requiredProperty key="project-name"/>
   </requiredProperties>

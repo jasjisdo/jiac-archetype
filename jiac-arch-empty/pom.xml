@@ -5,19 +5,19 @@
 	<parent>
 		<groupId>de.dailab</groupId>
 		<artifactId>jiac-archetype</artifactId>
-		<version>5.1.5.1</version>
+		<version>5.1.5.2-SNAPSHOT</version>
 	</parent>
 	
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 	</properties>
 	
-	<artifactId>jiac-jsw</artifactId>
+	<artifactId>jiac-arch-empty</artifactId>
 	
 	<packaging>maven-archetype</packaging>
 	
-	<name>JIAC V - Archetype - jsw project</name>
-	<description>Creates a runnable agent, which can used as system service/daemon</description>
+	<name>JIAC V - Archetype - empty project</name>
+	<description>Creates a empty jiac project. POM only</description>
 	<url>www.jiac.de</url>
 	<licenses>
 		<license>

@@ -10,7 +10,7 @@
 	
     <groupId>de.dailab</groupId>
     <artifactId>jiac-archetype</artifactId>
-    <version>5.1.5.1</version>
+    <version>5.1.5.2-SNAPSHOT</version>
 	<packaging>pom</packaging>
     <name>JIAC Archetypes</name>
     <description>Archetypes for JIAC</description>
@@ -40,10 +40,10 @@
 	</properties>
 	
     <modules>
-        <module>jiac-empty</module>
-		<module>jiac-jsw</module>
-		<module>jiac-agent-config-temp</module>
-		<module>jiac-multi-module</module>
+        <module>jiac-arch-empty</module>
+		<module>jiac-arch-jsw</module>
+		<module>jiac-arch-agent-config-temp</module>
+		<module>jiac-arch-multi-module</module>
 	</modules>
   
   

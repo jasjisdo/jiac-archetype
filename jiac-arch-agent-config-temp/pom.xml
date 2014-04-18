@@ -5,14 +5,14 @@
 	<parent>
 		<groupId>de.dailab</groupId>
 		<artifactId>jiac-archetype</artifactId>
-		<version>5.1.5.1</version>
+		<version>5.1.5.2-SNAPSHOT</version>
 	</parent>
 	
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 	</properties>
 	
-	<artifactId>jiac-agent-config-temp</artifactId>
+	<artifactId>jiac-arch-agent-config-temp</artifactId>
 	
 	<packaging>maven-archetype</packaging>
 	
