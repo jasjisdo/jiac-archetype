@@ -10,7 +10,7 @@
 	
     <groupId>de.dailab</groupId>
     <artifactId>jiac-archetype</artifactId>
-    <version>5.1.5-SNAPSHOT</version>
+    <version>5.1.5</version>
 	<packaging>pom</packaging>
     <name>JIAC Archetypes</name>
     <description>Archetypes for JIAC</description>
