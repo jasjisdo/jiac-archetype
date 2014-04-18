@@ -32,7 +32,7 @@
 			<defaultValue>${groupId}.${artifactId}</defaultValue>
 		</requiredProperty>
 		<requiredProperty key="java-version">
-			<defaultValue>6</defaultValue>
+			<defaultValue>7</defaultValue>
 		</requiredProperty>
 		<requiredProperty key="project-name" />
 		<requiredProperty key="project-url">
