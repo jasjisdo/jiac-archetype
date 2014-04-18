@@ -16,7 +16,7 @@
 	
 	<packaging>maven-archetype</packaging>
 	
-	<name>JIAC V - Archetype - empty project</name>
+	<name>JIAC V - Archetype - jiac-arch-empty</name>
 	<description>Creates a empty jiac project. POM only</description>
 	<url>www.jiac.de</url>
 	<licenses>

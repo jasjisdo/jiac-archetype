@@ -16,7 +16,8 @@
 	
 	<packaging>maven-archetype</packaging>
 	
-	<name>JIAC V - Archetype - with agent config template</name>
+	<name>JIAC V - Archetype - jiac-arch-agent-config-temp</name>
+	<description>Creates a jiac agent project, with spring-config templates for agent and agent bean </description>
 	<url>www.jiac.de</url>
 	<licenses>
 		<license>
