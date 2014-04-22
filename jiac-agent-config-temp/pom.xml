@@ -5,18 +5,19 @@
 	<parent>
 		<groupId>de.dailab</groupId>
 		<artifactId>jiac-archetype</artifactId>
-		<version>5.1.5.1</version>
+		<version>5.1.5.2</version>
 	</parent>
 	
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 	</properties>
 	
-	<artifactId>jiac-agent-config-temp</artifactId>
+	<artifactId>jiac-config-temp</artifactId>
 	
 	<packaging>maven-archetype</packaging>
 	
-	<name>JIAC V - Archetype - with agent config template</name>
+	<name>JIAC V - Archetype - jiac-arch-agent-config-temp</name>
+	<description>Creates a jiac agent project, with spring-config templates for an agent and an agent bean </description>
 	<url>www.jiac.de</url>
 	<licenses>
 		<license>

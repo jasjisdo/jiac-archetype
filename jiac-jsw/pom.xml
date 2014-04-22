@@ -5,7 +5,7 @@
 	<parent>
 		<groupId>de.dailab</groupId>
 		<artifactId>jiac-archetype</artifactId>
-		<version>5.1.5.1</version>
+		<version>5.1.5.2</version>
 	</parent>
 	
 	<properties>
@@ -16,7 +16,7 @@
 	
 	<packaging>maven-archetype</packaging>
 	
-	<name>JIAC V - Archetype - jsw project</name>
+	<name>JIAC V - Archetype - jiac-arch-jsw</name>
 	<description>Creates a runnable agent, which can used as system service/daemon</description>
 	<url>www.jiac.de</url>
 	<licenses>

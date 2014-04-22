@@ -8,6 +8,6 @@ public class NodeStarter {
      * @param args
      */
     public static void main(String[] args) {
-            SimpleAgentNode.main(new String[] { "classpath:AgentNode.xml" });
+            SimpleAgentNode.main(new String[] { "/node-config/AgentNode.xml" });
     }
 }

@@ -2,7 +2,7 @@ package ${package};
 
 import de.dailab.jiactng.agentcore.AbstractAgentBean;
 
-public class ${MainClass}Bean extends AbstractAgentBean{
+public class ${MainClassName}Bean extends AbstractAgentBean{
 
 	  /**
 	   * {@inheritDoc}

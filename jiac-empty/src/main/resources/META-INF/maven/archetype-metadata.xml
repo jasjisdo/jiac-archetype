@@ -14,7 +14,7 @@
 				<include>**/*.java</include>
 			</includes>
 		</fileSet>
-		<fileSet filtered="true" packaged="true" encoding="UTF-8">
+		<fileSet filtered="true" packaged="false" encoding="UTF-8">
 			<directory>src/main/resources</directory>
 			<includes>
 				<include>**/*.properties</include>
@@ -24,12 +24,8 @@
 	</fileSets>
 	<!-- Liste der selbsterstellten Parameter -->
 	<requiredProperties>
-	<requiredProperty key="groupId">
-		<defaultValue>de.dailab</defaultValue>
-	</requiredProperty>
-    <requiredProperty key="java-version">
-      <defaultValue>6</defaultValue>
-    </requiredProperty>
-    <requiredProperty key="project-name"/>
-  </requiredProperties>
+		<requiredProperty key="java-version">
+			<defaultValue>7</defaultValue>
+		</requiredProperty>
+	</requiredProperties>
 </archetype-descriptor>
