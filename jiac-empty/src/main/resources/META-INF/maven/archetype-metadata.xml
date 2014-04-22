@@ -27,6 +27,5 @@
 		<requiredProperty key="java-version">
 			<defaultValue>7</defaultValue>
 		</requiredProperty>
-		<requiredProperty key="project-name" />
 	</requiredProperties>
 </archetype-descriptor>

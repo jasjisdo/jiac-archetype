@@ -4,17 +4,17 @@
 <beans>
 	<import resource="classpath:de/dailab/jiactng/agentcore/conf/Agent.xml" />
 
-	<bean name="${MainClass}Agent" parent="SimpleAgent">
+	<bean name="${MainClassName}Agent" parent="SimpleAgent">
 		<property name="agentBeans">
 			<list>
-				<ref bean="${MainClass}Bean" />
+				<ref bean="${MainClassName}Bean" />
 			</list>
 		</property>
 	</bean>
 
-	<bean name="${MainClass}Bean" class="${package}.${MainClass}Bean"
+	<bean name="${MainClassName}Bean" class="${package}.${MainClassName}Bean"
 		singleton="false">
-		<property name="executeInterval" value="1000" />
+		<property name="executionInterval" value="1000" />
 		<property name="logLevel" value="INFO" />
 	</bean>
 </beans>

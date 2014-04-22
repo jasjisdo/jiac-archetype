@@ -16,14 +16,7 @@
 	<version>${version}</version>
 	<packaging>pom</packaging>
 
-	<name>${project-name}</name>
-	<url>${project-url}</url>
-	<inceptionYear>${project-inception-year}</inceptionYear>
-
-	<organization>
-		<name>${vendor-name}</name>
-		<url>${vendor-url}</url>
-	</organization>
+	<name>${project-name} - Parent</name>
 
 	<modules>
         <module>api</module>
@@ -45,7 +38,7 @@
 			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
 				<artifactId>maven-javadoc-plugin</artifactId>
-				<version>2.9</version>
+				<version>2.9.1</version>
 				<configuration>
 					<additionalJOption>-tag generated -tag ordered -tag model</additionalJOption>
 					<links>

@@ -22,10 +22,9 @@
 		</fileSet>
 	</fileSets>
 	<requiredProperties>
-	<requiredProperty key="MainClass"/>
+	<requiredProperty key="MainClassName"/>
     <requiredProperty key="java-version">
       <defaultValue>7</defaultValue>
     </requiredProperty>
-    <requiredProperty key="project-name"/>
   </requiredProperties>
 </archetype-descriptor>

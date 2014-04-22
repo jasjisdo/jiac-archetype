@@ -16,12 +16,8 @@
 		</fileSet>
 	</fileSets>
 	<requiredProperties>
-    <requiredProperty key="java-version">
-      <defaultValue>7</defaultValue>
-    </requiredProperty>
-    <requiredProperty key="project-name"/>
-    <requiredProperty key="project-url"/>
-    <requiredProperty key="vendor-name"/>
-    <requiredProperty key="vendor-url"/>
-  </requiredProperties>
+		<requiredProperty key="java-version">
+			<defaultValue>7</defaultValue>
+		</requiredProperty>
+	</requiredProperties>
 </archetype-descriptor>
