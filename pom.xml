@@ -40,41 +40,15 @@
 	</properties>
 	
     <modules>
-        <module>jiac-arch-empty</module>
-		<module>jiac-arch-jsw</module>
-		<module>jiac-arch-agent-config-temp</module>
-		<module>jiac-arch-multi-module</module>
+		<module>jiac-agent-config-temp</module>
+		<module>jiac-jsw</module>
+		<module>jiac-empty</module>
+		<module>jiac-multi-module</module>
 	</modules>
-  
-  
-	<build>
-      <plugins>
-        <plugin>
-          <groupId>org.apache.maven.plugins</groupId>
-          <artifactId>maven-gpg-plugin</artifactId>
-          <version>1.5</version>
-          <executions>
-            <execution>
-              <id>sign-artifacts</id>
-              <phase>verify</phase>
-              <goals>
-                <goal>sign</goal>
-              </goals>
-            </execution>
-          </executions>
-        </plugin>
-      </plugins>
-	</build>
-  
+ 
 <profiles>
   <profile>
-    <id>release-sign-artifacts</id>
-    <activation>
-      <property>
-        <name>performRelease</name>
-        <value>true</value>
-      </property>
-    </activation>
+    <id>release</id>  
     <build>
       <plugins>
         <plugin>

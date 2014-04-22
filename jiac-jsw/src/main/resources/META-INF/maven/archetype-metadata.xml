@@ -7,6 +7,12 @@
 				<include>**/*.java</include>
 			</includes>
 		</fileSet>
+		<fileSet filtered="true" packaged="true" encoding="UTF-8">
+			<directory>src/test/java</directory>
+			<includes>
+				<include>**/*.java</include>
+			</includes>
+		</fileSet>
 		<fileSet filtered="true" packaged="false" encoding="UTF-8">
 			<directory>src/main/resources</directory>
 			<includes>
@@ -16,24 +22,10 @@
 		</fileSet>
 	</fileSets>
 	<requiredProperties>
-	<requiredProperty key="groupId">
-		<defaultValue>de.dailab</defaultValue>
-	</requiredProperty>
-	<requiredProperty key="package">
-		<defaultValue>${groupId}.${artifactId}</defaultValue>
-	</requiredProperty>
+	<requiredProperty key="MainClass"/>
     <requiredProperty key="java-version">
       <defaultValue>7</defaultValue>
     </requiredProperty>
     <requiredProperty key="project-name"/>
-    <requiredProperty key="project-url">
-    	<defaultValue>www.dai-labor.de</defaultValue>
-    </requiredProperty>
-    <requiredProperty key="vendor-name">
-    	<defaultValue>DAI-Labor, TU Berlin</defaultValue>
-    </requiredProperty>
-    <requiredProperty key="vendor-url">
-    	<defaultValue>www.dai-labor.de</defaultValue>
-    </requiredProperty>
   </requiredProperties>
 </archetype-descriptor>

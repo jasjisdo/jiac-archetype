@@ -12,12 +12,12 @@
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 	</properties>
 	
-	<artifactId>jiac-arch-agent-config-temp</artifactId>
+	<artifactId>jiac-multi-module</artifactId>
 	
 	<packaging>maven-archetype</packaging>
 	
-	<name>JIAC V - Archetype - jiac-arch-agent-config-temp</name>
-	<description>Creates a jiac agent project, with spring-config templates for agent and agent bean </description>
+	<name>JIAC V - Archetype - jiac-arch-multi-module</name>
+	<description>Creates jiac multi module project with api and domain module</description>
 	<url>www.jiac.de</url>
 	<licenses>
 		<license>

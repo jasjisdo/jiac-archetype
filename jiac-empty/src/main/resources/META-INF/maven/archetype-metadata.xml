@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <archetype-descriptor name="jiacv">
+	<!-- Definition der Projektstruktur -->
 	<fileSets>
 		<fileSet filtered="true" packaged="true" encoding="UTF-8">
 			<directory>src/main/java</directory>
@@ -21,17 +22,11 @@
 			</includes>
 		</fileSet>
 	</fileSets>
+	<!-- Liste der selbsterstellten Parameter -->
 	<requiredProperties>
-	<requiredProperty key="groupId">
-		<defaultValue>de.dailab</defaultValue>
-	</requiredProperty>
-	<requiredProperty key="package">
-		<defaultValue>${groupId}.${artifactId}</defaultValue>
-	</requiredProperty>
-	<requiredProperty key="MainClass"/>
-    <requiredProperty key="java-version">
-      <defaultValue>7</defaultValue>
-    </requiredProperty>
-    <requiredProperty key="project-name"/>
-  </requiredProperties>
+		<requiredProperty key="java-version">
+			<defaultValue>7</defaultValue>
+		</requiredProperty>
+		<requiredProperty key="project-name" />
+	</requiredProperties>
 </archetype-descriptor>
